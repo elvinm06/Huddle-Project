@@ -149,6 +149,10 @@ section.home {
   padding-bottom: 20px;
 }
 
+.body .flex-content {
+  margin-bottom: 0;
+}
+
 .body div {
   width: 50%;
   background-color: #f6fbff;
@@ -288,6 +292,10 @@ section.home {
 
 @media(min-width: 375px) and (max-width: 1440px) {
 
+  * {
+    overflow-x: hidden;
+  }
+
   .logo-img {
     padding: 10px;
     width: 150px;
@@ -388,8 +396,8 @@ section.home {
   }
 
  .p-footer {
-    width: 400px;
-    height: 80px;
+    width: fit-content;
+    height: fit-content;
     margin-bottom: 50px;
   }
 
@@ -412,7 +420,4 @@ section.home {
   .email-footer {
     margin-bottom: 30px;
   }
-
-  
-  
 }
